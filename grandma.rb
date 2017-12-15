@@ -22,3 +22,17 @@ def speak_to_grandma(phrase)
   puts response
   response
 end
+
+# the directions do not ask us to puts and return. just return. so we could just
+# say if () return "the app phrase"
+
+#formal solution online is the following. Note; where is the I Love you condition? 
+#this soln does not seem 100% correct
+
+#def speak_to_grandma(phrase)
+#  if phrase != phrase.upcase()
+#    return "HUH?! SPEAK UP, SONNY!"
+#  else
+#    return "NO, NOT SINCE 1938!"
+#  end
+# end
